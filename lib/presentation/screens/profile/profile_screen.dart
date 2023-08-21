@@ -10,6 +10,15 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SingleChildScrollView(
+      child: Padding(
+        padding: EdgeInsets.symmetric(horizontal: 8),
+        child: Column(
+          children: [
+
+          ],
+        ),
+      ),
+    );
   }
 }
