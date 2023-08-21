@@ -25,8 +25,7 @@ class OptionsSetting extends StatelessWidget {
               children: [
                 Icon(icon),
                 const SizedBox(width: 8),
-                Text(title),
-                const Spacer(),
+                Expanded(child: Text(title, )),
                 IconButton(onPressed: onTap, icon: const Icon(Icons.chevron_right))
               ],
             ),
